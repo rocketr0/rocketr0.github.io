@@ -61,7 +61,7 @@ footer .note{margin:0; color:var(--muted); font-size:14px}
 h2{display:inline-block;background:#a1620722;border-left:3px solid #a16207;padding:4px 12px;border-radius:2px;text-transform:none;letter-spacing:.03em;font-size:14px}
 .card{background:#fffef7;border:1px solid #f0e8c8;border-radius:16px;padding:20px}
 
-body::after{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;background-image:radial-gradient(#f0e8c8 1px, transparent 1px);background-size:22px 22px}
+background-image:radial-gradient(#f0e8c8 1px, transparent 1px);background-size:22px 22px;
 </style>
 </head>
 <body>
@@ -76,7 +76,7 @@ body::after{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;back
 
 <section class="about" id="about">
   <h2>关于</h2>
-  <p>难例挖掘是我的主要工作方向。 当前以硕士阶段研究角色的方式推进项目。</p>
+  <p>难例挖掘是我的主要工作方向。</p>
   <ul class="traits">
     <li>破坏性变更一律先说。</li>
     <li>版本之间的差异要能查得到。</li>
@@ -89,20 +89,12 @@ body::after{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;back
   <div class="grid two">
     <article class="card">
       <h3>难例挖掘的基线选择与对照设计</h3>
-      <span class="status">持续跟进</span>
     </article>
     <article class="card">
       <h3>难例挖掘的判定依据与复核方式</h3>
-      <span class="status">持续跟进</span>
     </article>
     <article class="card">
       <h3>难例挖掘里容易误判的情形与反例</h3>
-      <span class="status">持续跟进</span>
-    </article>
-    <article class="card">
-      <h3>在推进的问题</h3>
-      <p>（难例挖掘场景）为难例挖掘选哪个基线才不会被误导？用抽样与样本量分析比较至少两个基线在同一输入上的差异。</p>
-      <span class="status">进行中</span>
     </article>
   </div>
 </section>
@@ -112,9 +104,6 @@ body::after{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;back
   <ul class="repos">
     <li><div class="name"><a href="https://github.com/rocketr0/hardmine" rel="noopener">hardmine</a></div>
       <div class="desc">按多个错误信号给样本打分，选出高难度子集并给出分布</div>
-    </li>
-    <li><div class="name"><a href="https://github.com/rocketr0/sampling_trace_based_analysis_06dc6dbb" rel="noopener">sampling_trace_based_analysis_06dc6dbb</a></div>
-      <div class="desc">（难例挖掘场景）为难例挖掘选哪个基线才不会被误导？用抽样与样本量分析比较至少两个基线在同一输入上的差异。</div>
     </li>
   </ul>
 </section>
